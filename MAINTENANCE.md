@@ -34,6 +34,9 @@ Les informations restent lisibles dans le README sans l'image. La bannière est 
 clair/sombre et s'adapte à la largeur disponible. Garder l'image légère et un texte alternatif.
 Elle ne contient que deux grands titres et le motif Avalon : les informations personnelles et
 professionnelles restent dans le texte Markdown, lisible sur téléphone et sans l'image.
+Le paramètre `v` de son URL est le préfixe de son SHA-256 : le mettre à jour dans les deux README
+après chaque modification du SVG. GitHub peut sinon afficher la nouvelle page avec une ancienne
+image encore en cache. Ce paramètre ne change pas le chemin du fichier local.
 
 ### Capture Avash
 

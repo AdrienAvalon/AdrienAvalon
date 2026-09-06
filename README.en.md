@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Avalon Network — Systems. Code. Exploration." width="100%">
+  <img src="assets/banner.svg?v=093fff1d" alt="Avalon Network — Systems. Code. Exploration." width="100%">
 </p>
 
 [Français](README.md)
