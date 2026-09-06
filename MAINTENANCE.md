@@ -153,6 +153,14 @@ Une relecture indépendante a confirmé les liens, la parité FR/EN, la provenan
 La revue complémentaire `claude-pair`, limitée à un résumé anonymisé, a échoué avant de produire un
 avis exploitable : aucune approbation Claude n'est revendiquée.
 
+Après publication : les douze cas ont été rejoués sur les pages publiques réelles (profil FR et
+fichier anglais), sans substitution des contenus ni des images. Les chemins de changement de langue,
+les neuf images et l'absence de débordement du README sont confirmés. Les octets servis pour les
+deux assets correspondent aux SHA-256 locaux ; l'inspection visuelle confirme la nouvelle bannière.
+Un ancien cache de page puis de bannière a été observé et traité par rafraîchissement de page et
+version d'URL d'asset. Les blobs distants des deux README et des deux images correspondent à Git.
+Ces contrôles sont ponctuels, en navigateur isolé sur Linux, et non un test sur téléphone physique.
+
 Retirer ou vider le README désactive son affichage sur le profil ; ne pas supprimer le dépôt ou
 changer sa visibilité sans demande du propriétaire. Les [conditions du README de profil](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 et les [réglages d'épingles](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
