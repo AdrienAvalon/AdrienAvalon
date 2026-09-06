@@ -60,7 +60,7 @@ biographie, de leurs images ou de leurs réalisations :
 Le choix final garde une bannière originale, une palette sombre/menthe, des sections courtes et des
 liens directs. Pas de classement prétendant désigner objectivement les « meilleurs profils ».
 
-## Bio proposée
+## Bio du profil
 
 ```text
 Administrateur systèmes Linux | Automatisation, outils Rust & self-hosting | Avash · SysAdmin-Tools · Recherche IA | Avalon Network
@@ -70,6 +70,10 @@ La bio du compte n'est pas synchronisée automatiquement depuis Git. La modifica
 change pas la bio latérale. Pour la mettre à jour, utiliser « Edit profile » ou l'API avec le droit
 de modification de profil ; ne pas élargir silencieusement les permissions d'un jeton. La bio
 précédente lors de cette intervention était `SysAdmin Linux`.
+
+Cette bio a été appliquée le 6 septembre 2026, après validation explicite du propriétaire de
+l'autorisation GitHub, puis relue via l'API du profil public. Seul le champ `bio` a été écrit ; les
+autres champs de présentation ont été recoupés avant/après et conservés.
 
 Les quatre épingles existantes sont conservées : Avash, SysAdmin-Tools, Avalon Research et
 Destructible FPS. Le nom, la société, la localisation, l'avatar, les liens sociaux, les réglages de
