@@ -1,10 +1,45 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Avalon Network — Linux, logiciel et exploration technique" width="100%">
+  <img src="assets/banner.svg" alt="Avalon Network — Systems. Code. Exploration." width="100%">
 </p>
+
+[English](README.en.md)
 
 # Bonjour, moi c'est Adrien.
 
-**Administrateur systèmes Linux · Créateur d'outils · Recherche indépendante**
+**Je construis des outils pour simplifier l'administration Linux et les connexions distantes.**
+
+Administrateur systèmes derrière **Avalon Network**, je pars des besoins du terrain pour
+développer, tester et documenter. J'explore aussi l'auto-hébergement, les agents IA et la simulation.
+
+## Avash — les connexions distantes, réunies
+
+[![Dernière version publiée d'Avash](https://img.shields.io/github/v/release/AdrienAvalon/avash?style=flat-square&label=release&color=45c7a7)](https://github.com/AdrienAvalon/avash/releases/latest)
+
+Terminaux **SSH**, bureaux **RDP / VNC** et transferts **SFTP** dans une application de bureau
+en **Rust et Tauri**, qui reprend votre configuration OpenSSH.
+
+<a href="https://github.com/AdrienAvalon/avash#avash">
+  <img src="assets/avash-terminal.png" alt="Avash en action : une session SSH, les hôtes et les outils de connexion dans la même fenêtre." width="100%">
+</a>
+
+[**Découvrir**](https://adrienavalon.github.io/avash/) · [**Télécharger**](https://github.com/AdrienAvalon/avash/releases/latest) · [Code](https://github.com/AdrienAvalon/avash) · [Voir la démo](https://github.com/AdrienAvalon/avash#avash)
+
+## Côté Linux
+
+[**SysAdmin-Tools**](https://github.com/AdrienAvalon/SysAdmin-Tools) — Du Bash pour le diagnostic
+système, avec un contrôle de santé **SLES 12 SP5 en lecture seule**, documenté et validé avec ShellCheck.
+
+## Explorations
+
+- [**Destructible FPS**](https://github.com/AdrienAvalon/destructible-fps) — Prototype Rust :
+  destruction des matériaux, physique et multijoueur à autorité serveur.
+  **Le photoréalisme reste un objectif**, pas le rendu actuel. La démo jouable et l'inspecteur
+  graphique sont distincts : [état et feuille de route](https://github.com/AdrienAvalon/destructible-fps/blob/main/REPRISE.md).
+- [**Avalon Research**](https://github.com/AdrienAvalon/avalon-research) — Travaux exploratoires
+  sur les agents IA, la mémoire persistante et les représentations symboliques.
+  Documents en français et en anglais, avec liens vers Zenodo.
+
+## Ma boîte à outils
 
 <p>
   <img src="https://img.shields.io/badge/Linux-0D1117?style=flat-square&amp;logo=linux&amp;logoColor=FCC624" alt="Linux">
@@ -15,55 +50,11 @@
   <img src="https://img.shields.io/badge/Tauri-0D1117?style=flat-square&amp;logo=tauri&amp;logoColor=24C8D8" alt="Tauri">
 </p>
 
-Je développe des outils pour simplifier l'administration système et les connexions distantes.
-Avec **Avalon Network**, je m'intéresse aussi à l'auto-hébergement, à la fiabilité des infrastructures
-et aux architectures d'agents IA. Mon fil conducteur : partir d'un besoin concret, construire,
-tester et documenter.
-
-[Avalon Network](https://avalon-network.com) · [Mes dépôts](https://github.com/AdrienAvalon?tab=repositories) · [Recherche](https://github.com/AdrienAvalon/avalon-research)
-
-## Projets à découvrir
-
-### [Avash](https://github.com/AdrienAvalon/avash)
-
-[![Dernière version publiée d'Avash](https://img.shields.io/github/v/release/AdrienAvalon/avash?style=flat-square&label=release&color=45c7a7)](https://github.com/AdrienAvalon/avash/releases/latest)
-
-Un gestionnaire de connexions **SSH, RDP et VNC**, avec transferts SFTP, dans une application
-de bureau construite avec **Rust et Tauri**.
-
-[Découvrir](https://adrienavalon.github.io/avash/) · [Versions et téléchargements](https://github.com/AdrienAvalon/avash/releases)
-
-### [SysAdmin-Tools](https://github.com/AdrienAvalon/SysAdmin-Tools)
-
-Des scripts **Bash** pour le diagnostic Linux, dont un contrôle de santé en lecture seule pour
-**SLES 12 SP5**. Des outils ciblés, avec validation ShellCheck et documentation d'utilisation.
-
-### [Destructible FPS](https://github.com/AdrienAvalon/destructible-fps)
-
-Un **prototype de moteur en Rust** autour de la destruction des matériaux, de la physique et d'un
-multijoueur à autorité serveur. Une exploration de la simulation et du rendu temps réel.
-
-*Prototype technique : l'objectif photoréaliste reste à atteindre. La démo jouable et l'inspecteur
-graphique sont deux étapes distinctes du projet.*
-
-[État et feuille de route](https://github.com/AdrienAvalon/destructible-fps/blob/main/REPRISE.md)
-
-### [Avalon Research](https://github.com/AdrienAvalon/avalon-research)
-
-Des **travaux exploratoires** sur les architectures d'agents IA, la mémoire persistante et les
-représentations symboliques. Documents en français et en anglais, avec liens vers les dépôts Zenodo.
-
-## Mon terrain de jeu technique
-
-- **Systèmes** — Linux, Debian, SUSE/SLES, SSH, Docker, auto-hébergement.
-- **Développement** — Rust, Bash, Python, TypeScript et Tauri.
-- **Méthode** — diagnostics reproductibles, tests, documentation et attention à la sécurité.
-- **Exploration** — agents IA, simulation physique et rendu temps réel.
+Diagnostics reproductibles, tests et documentation :
+[un exemple concret avec Avash](https://github.com/AdrienAvalon/avash/blob/main/docs/qualite.md).
 
 ## Échanger
 
-Un problème, une idée ou une contribution sur un projet ? Ses **issues et pull requests** sont
-le meilleur point de départ. Pour découvrir mon activité et me contacter :
-[**avalon-network.com**](https://avalon-network.com).
+Une idée, un bug ou une contribution ? Rendez-vous dans les **issues et pull requests** du projet.
 
-<sub>Les dépôts documentent leur état, leurs limites et leurs licences respectives.</sub>
+[**Avalon Network · Me contacter**](https://avalon-network.com) · [Tous mes dépôts](https://github.com/AdrienAvalon?tab=repositories)

@@ -1,7 +1,16 @@
 # Maintenir ce profil
 
 Ce dépôt public `AdrienAvalon/AdrienAvalon` fournit le README affiché sur le profil GitHub.
-Le texte principal est en français ; les noms et liens des projets restent ceux de leurs dépôts.
+Le texte principal est en français. `README.en.md` est sa version anglaise, accessible par un lien
+réciproque ; modifier les deux ensemble, y compris les limites des projets et les textes alternatifs.
+Les noms et liens des projets restent ceux de leurs dépôts.
+
+## Parcours de lecture
+
+La version portfolio met en avant Avash, puis l'outillage Linux, puis les explorations FPS et IA.
+Conserver une introduction courte, les badges après les projets et un lien vers les preuves de
+qualité plutôt que des chiffres recopiés. Ne pas remettre les quatre projets au même niveau de
+maturité : le FPS reste un prototype et la recherche reste exploratoire.
 
 ## Sources de vérité
 
@@ -23,6 +32,29 @@ Ne pas publier d'inventaire privé, endpoint interne, adresse de messagerie non 
 montrer un produit réel, pas de ressource externe, script, animation, police téléchargée ou tracker.
 Les informations restent lisibles dans le README sans l'image. La bannière est identique en thème
 clair/sombre et s'adapte à la largeur disponible. Garder l'image légère et un texte alternatif.
+Elle ne contient que deux grands titres et le motif Avalon : les informations personnelles et
+professionnelles restent dans le texte Markdown, lisible sur téléphone et sans l'image.
+
+### Capture Avash
+
+`assets/avash-terminal.png` est une copie **sans retouche** de la capture déjà publiée par le
+propriétaire dans son dépôt Avash :
+
+- Source : [`docs/captures/terminal-ssh.png`](https://github.com/AdrienAvalon/avash/blob/09297fdec3112a2b17b1218bf09575fda8322354/docs/captures/terminal-ssh.png).
+- Commit source : `09297fdec3112a2b17b1218bf09575fda8322354`.
+- Dimensions : 1280 × 800 ; taille : 112 361 octets.
+- SHA-256 : `b776797abd6d4d9033d4fd6e91b08d7ebe73b5ae7297cc90c9b06c8d605f83b8`.
+- Lien de démonstration : le README Avash, qui contient déjà son animation SSH/RDP.
+
+Le profil affiche une image statique pour éviter une animation automatique sans contrôle de pause.
+Il renvoie vers le projet pour voir la démo. La capture illustre une version de l'interface, pas une
+preuve de performances ou de compatibilité sur tous les OS. Le badge reste la source de version
+courante ; une capture historique peut afficher un numéro plus ancien.
+
+Avant remplacement, inspecter le visuel entier et les métadonnées, vérifier sa provenance publique,
+refuser les secrets et les données d'infrastructure privée. Conserver le fichier original, sa source
+épinglée et la même capture dans les deux langues. Cette réutilisation ne change pas la licence du
+projet Avash, [AGPL-3.0-or-later](https://github.com/AdrienAvalon/avash/blob/09297fdec3112a2b17b1218bf09575fda8322354/LICENSE).
 
 Prévisualisation optionnelle, avec librsvg déjà installé :
 
@@ -38,7 +70,7 @@ aucun numéro n'est recopié à la main. Si Shields.io est indisponible, le text
 restent utilisables. Aucun compte, jeton ou générateur de statistiques n'est nécessaire.
 
 Les images de badges impliquent une ressource externe ; ne pas prétendre que toute la page est
-autonome. La bannière reste locale au dépôt. Pas de compteur de visiteurs, trophées, streaks,
+autonome. La bannière et la capture restent locales au dépôt. Pas de compteur de visiteurs, trophées, streaks,
 workflow planifié ou serveur tiers nécessitant un jeton d'accès aux dépôts.
 
 ## Références de présentation
@@ -93,6 +125,30 @@ inspectée dans un navigateur isolé du profil personnel, en thème clair à 144
 bannière chargée, badges visibles avec retour à la ligne mobile, contenu correctement affiché.
 Le SHA du README relu via l'API correspond au blob local. Ces observations sont ponctuelles, pas
 une garantie permanente de disponibilité des liens ou des services de badges.
+
+### Version portfolio — 6 septembre 2026
+
+Avant publication : les 29 URL distinctes des trois documents répondaient HTTP 200, dont les
+sept badges. Les versions FR/EN partagent les mêmes 18 URL publiques et les chemins relatifs
+existent. L'ancre de démonstration et la présence du WebP animé ont été recoupées dans Avash.
+La capture est identique à sa source épinglée ; le PNG ne contient que les chunks IHDR, IDAT et
+IEND. Les quatre sources textuelles ont été relues et contrôlées contre des motifs de secrets.
+
+Les deux README ont été rendus avec l'API Markdown GitHub puis prévisualisés dans le cadre et les
+styles natifs du profil, avec Firefox isolé piloté par Playwright : thèmes clair/sombre, largeurs
+1440, 390 et 320 px, soit 12 cas. Les neuf images chargent et le README ne déborde pas
+horizontalement. Les thèmes sont sélectionnés uniquement dans le navigateur de test, sans
+écriture de réglage de compte. Les prévisualisations locales substituent les fichiers candidats ;
+elles ne constituent pas à elles seules une preuve de publication.
+
+Outils de cette vérification : Git/GitHub CLI, librsvg, contrôle de chunks PNG, Playwright 1.58.0
+dans un environnement Python isolé via uv et son Firefox dédié. Aucun outil de statistiques,
+workflow, jeton supplémentaire ni modification du navigateur personnel. Les artefacts de test
+restent sous `.preview/`, ignoré par Git.
+
+Une relecture indépendante a confirmé les liens, la parité FR/EN, la provenance et les descriptions.
+La revue complémentaire `claude-pair`, limitée à un résumé anonymisé, a échoué avant de produire un
+avis exploitable : aucune approbation Claude n'est revendiquée.
 
 Retirer ou vider le README désactive son affichage sur le profil ; ne pas supprimer le dépôt ou
 changer sa visibilité sans demande du propriétaire. Les [conditions du README de profil](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
