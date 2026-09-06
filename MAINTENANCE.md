@@ -82,6 +82,14 @@ Après push, vérifier le SHA distant et l'apparition du README sur la page du p
 modifications du propriétaire ; le rollback du contenu passe par un nouveau commit qui restaure
 la version voulue, jamais une réécriture forcée de l'historique.
 
+Validation initiale : les dix liens publics et les sept images Shields répondaient en HTTP 200 ;
+le badge Avash correspondait à sa release publique. Le Markdown a été rendu par l'API GitHub,
+le SVG inspecté et rasterisé à deux largeurs. Après publication, la page réelle du profil a été
+inspectée dans un navigateur isolé du profil personnel, en thème clair à 1440 px et à 390 px :
+bannière chargée, badges visibles avec retour à la ligne mobile, contenu correctement affiché.
+Le SHA du README relu via l'API correspond au blob local. Ces observations sont ponctuelles, pas
+une garantie permanente de disponibilité des liens ou des services de badges.
+
 Retirer ou vider le README désactive son affichage sur le profil ; ne pas supprimer le dépôt ou
 changer sa visibilité sans demande du propriétaire. Les [conditions du README de profil](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 et les [réglages d'épingles](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
