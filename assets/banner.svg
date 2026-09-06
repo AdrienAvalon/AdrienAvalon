@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Avalon Network</title>
+  <desc id="desc">Bannière sombre et vert menthe, inspirée des connexions entre systèmes. Linux, logiciel et exploration technique.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#142b2a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#45c7a7"/>
+      <stop offset="1" stop-color="#b7f6dc"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a2cfbe" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <rect x="0" y="44" width="4" height="212" rx="2" fill="url(#accent)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="56" y="65" fill="#8fd8c0" font-size="15" font-weight="600" letter-spacing="4">ADRIEN CROS / AVALON NETWORK</text>
+    <text x="52" y="146" fill="#f0f6fc" font-size="66" font-weight="700" letter-spacing="-2">Systems. Code.</text>
+    <text x="52" y="218" fill="url(#accent)" font-size="66" font-weight="700" letter-spacing="-2">Exploration.</text>
+    <text x="56" y="264" fill="#aabeb9" font-size="18">Linux · Logiciel · Recherche indépendante</text>
+  </g>
+  <g fill="none" stroke="#78cdb5" stroke-linecap="round">
+    <path d="M818 244 944 38 1070 244Z" stroke-width="1" opacity="0.2"/>
+    <path d="m864 210 80-134 80 134M899 158h90" stroke="url(#accent)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M788 150h71m174 0h81M944 39v-17m0 222v34" stroke-width="1.5" opacity="0.45"/>
+    <path d="m824 75 42 24m155 99 56 31m-1-154-56 31m-157 92-44 25" stroke-width="1" opacity="0.2"/>
+    <circle cx="944" cy="151" r="116" stroke-width="1" opacity="0.12"/>
+  </g>
+  <g fill="#91e3c8">
+    <circle cx="788" cy="150" r="4"/>
+    <circle cx="1114" cy="150" r="4"/>
+    <circle cx="944" cy="39" r="4"/>
+    <circle cx="864" cy="210" r="4"/>
+    <circle cx="1024" cy="210" r="4"/>
+  </g>
+</svg>
