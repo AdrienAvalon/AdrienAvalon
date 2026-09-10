@@ -2,14 +2,19 @@
   <img src="assets/banner.svg?v=093fff1d" alt="Avalon Network — Systems. Code. Exploration." width="100%">
 </p>
 
-[English](README.en.md)
+<div align="center">
 
 # Bonjour, moi c'est Adrien.
 
-**Je construis des outils pour simplifier l'administration Linux et les connexions distantes.**
+**Des outils concrets pour administrer Linux, se connecter à distance et explorer de nouvelles idées.**
 
-Administrateur systèmes derrière **Avalon Network**, je pars des besoins du terrain pour
-développer, tester et documenter. J'explore aussi l'auto-hébergement, les agents IA et la simulation.
+Administrateur systèmes derrière **Avalon Network**, je transforme des besoins du terrain
+en logiciels et scripts documentés. Mes projets vont de l'application de bureau aux
+expérimentations sur la simulation et les agents IA.
+
+[Français](README.md) · [English](README.en.md) · [Avalon Network](https://avalon-network.com)
+
+</div>
 
 ## Avash — les connexions distantes, réunies
 
@@ -26,18 +31,42 @@ en **Rust et Tauri**, qui reprend votre configuration OpenSSH.
 
 ## Côté Linux
 
-[**SysAdmin-Tools**](https://github.com/AdrienAvalon/SysAdmin-Tools) — Du Bash pour le diagnostic
-système, avec un contrôle de santé **SLES 12 SP5 en lecture seule**, documenté et validé avec ShellCheck.
+Des outils courts dont le comportement se lit dans les sources, avec un périmètre adapté à chaque besoin.
+
+| Projet | Pour quoi faire | À savoir avant de commencer |
+|---|---|---|
+| [**SysAdmin-Tools**](https://github.com/AdrienAvalon/SysAdmin-Tools) | Diagnostiquer la santé et les lenteurs d'un serveur SLES 12 SP5 | Contrôle en lecture seule, documentation et validation ShellCheck |
+| [**AVALON-terminal**](https://github.com/AdrienAvalon/AVALON-terminal) | Retrouver un environnement Zsh/tmux pour l'administration | Configuration personnelle Debian/Ubuntu ; l'installateur modifie le système et le compte root |
+| [**Shell-Linux-update**](https://github.com/AdrienAvalon/Shell-Linux-update) | Déclencher une mise à jour APT après confirmation | Petit script historique Debian à relire avant exécution |
+| [**secu**](https://github.com/AdrienAvalon/secu) | Comprendre les groupes de permissions Unix | Exercice Bash de lecture de texte, avec fichiers intermédiaires |
 
 ## Explorations
 
-- [**Destructible FPS**](https://github.com/AdrienAvalon/destructible-fps) — Prototype Rust :
-  destruction des matériaux, physique et multijoueur à autorité serveur.
-  **Le photoréalisme reste un objectif**, pas le rendu actuel. La démo jouable et l'inspecteur
-  graphique sont distincts : [état et feuille de route](https://github.com/AdrienAvalon/destructible-fps/blob/main/REPRISE.md).
-- [**Avalon Research**](https://github.com/AdrienAvalon/avalon-research) — Travaux exploratoires
-  sur les agents IA, la mémoire persistante et les représentations symboliques.
-  Documents en français et en anglais, avec liens vers Zenodo.
+### Ava
+
+[**Un assistant personnel en français**](https://github.com/AdrienAvalon/ava/tree/ava-main),
+avec la voix et des outils ciblés pour un environnement auto-hébergé. Le projet adapte
+OpenJarvis et reste en développement ; ses capacités dépendent des services configurés
+et des accès explicitement accordés.
+
+### Destructible FPS
+
+[**Un monde qui se construit et se détruit**](https://github.com/AdrienAvalon/destructible-fps) :
+un prototype Rust qui relie dégâts par matériau, corps physiques et multijoueur à autorité serveur.
+La démo locale permet de jouer ; un inspecteur distinct explore la géométrie fine.
+
+**Le photoréalisme reste un objectif.** La plateforme éprouvée est Linux/Vulkan et les serveurs
+restent limités au loopback. [Voir l'état publié et la suite](https://github.com/AdrienAvalon/destructible-fps/blob/main/REPRISE.md).
+
+### Avalon Research
+
+[**Explorer la mémoire et les architectures des agents IA**](https://github.com/AdrienAvalon/avalon-research) :
+publications indépendantes sur la mémoire persistante, les représentations symboliques et les
+modules spécialisés, disponibles en français et en anglais avec leurs liens Zenodo.
+
+Ces textes présentent des hypothèses et des expériences exploratoires ; leur publication ne
+constitue pas une validation scientifique indépendante.
+[Parcourir les publications](https://github.com/AdrienAvalon/avalon-research#publications).
 
 ## Ma boîte à outils
 
@@ -55,6 +84,8 @@ Diagnostics reproductibles, tests et documentation :
 
 ## Échanger
 
-Une idée, un bug ou une contribution ? Rendez-vous dans les **issues et pull requests** du projet.
+Une idée, un bug reproductible ou une contribution ? Les **issues et pull requests** de chaque
+projet permettent de suivre les propositions avec leur contexte. La documentation précise
+ce qui fonctionne déjà, les conditions d'utilisation et les étapes qui restent à franchir.
 
-[**Avalon Network · Me contacter**](https://avalon-network.com) · [Tous mes dépôts](https://github.com/AdrienAvalon?tab=repositories)
+[**Avalon Network · Me contacter**](https://avalon-network.com) · [Tous mes dépôts publics](https://github.com/AdrienAvalon?tab=repositories)
