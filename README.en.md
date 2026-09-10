@@ -51,12 +51,21 @@ granted access.
 
 ### Destructible FPS
 
-[**A world you can build and destroy**](https://github.com/AdrienAvalon/destructible-fps):
-a Rust prototype connecting material-dependent damage, physical bodies and server-authoritative
-multiplayer. The local demo is playable; a separate inspector explores fine geometry.
+[**An FPS with destructible environments, in development**](https://github.com/AdrienAvalon/destructible-fps).
+Since September 7, 2026, **Unreal Engine 5.8.2** has been the production direction. The Marble
+factory is rendered with Cesium; on September 8, the **Marble Walk** map was explored
+in first person in the Linux editor, with keyboard, mouse, jumping and return-to-start tested.
 
-**Photorealism remains a goal.** Linux/Vulkan is the tested platform and servers remain
-loopback-only. [See the published status and next steps](https://github.com/AdrienAvalon/destructible-fps/blob/main/REPRISE.md).
+This visit remains a prototype: close-up detail and collisions need further work,
+and destruction and multiplayer still need to be brought into Unreal. The Rust prototype
+is retained as a technical reference. [See the project status](https://github.com/AdrienAvalon/destructible-fps#état-du-projet).
+
+<a href="https://github.com/AdrienAvalon/destructible-fps#captures-unreal">
+  <img src="https://raw.githubusercontent.com/AdrienAvalon/destructible-fps/main/docs/screenshots/2026-09-08-unreal-marble-overview.png" alt="The Marble factory and its ruined courtyard, captured in the Unreal Engine editor on Linux." width="100%">
+</a>
+
+*3D scene generated with World Labs Marble, then captured natively in Unreal Engine.
+Linux editor view from September 8, 2026; the gallery also includes captures of the visit in play mode.*
 
 ### Avalon Research
 
