@@ -67,6 +67,8 @@ est conservé comme référence technique. [Voir l'état du projet](https://gith
 *Scène 3D générée avec World Labs Marble, puis capturée nativement dans Unreal Engine.
 Vue de l'éditeur Linux du 8 septembre 2026 ; la galerie présente aussi les captures de la visite en jeu.*
 
+[**Vidéo de la visite — 32 s**](https://github.com/AdrienAvalon/destructible-fps/blob/main/docs/videos/2026-09-10-marble-walk.mp4)
+
 ### Avalon Research
 
 [**Explorer la mémoire et les architectures des agents IA**](https://github.com/AdrienAvalon/avalon-research) :

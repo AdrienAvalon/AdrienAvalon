@@ -67,6 +67,8 @@ is retained as a technical reference. [See the project status](https://github.co
 *3D scene generated with World Labs Marble, then captured natively in Unreal Engine.
 Linux editor view from September 8, 2026; the gallery also includes captures of the visit in play mode.*
 
+[**Watch the visit — 32 s**](https://github.com/AdrienAvalon/destructible-fps/blob/main/docs/videos/2026-09-10-marble-walk.mp4)
+
 ### Avalon Research
 
 [**Exploring AI agent memory and architectures**](https://github.com/AdrienAvalon/avalon-research):
